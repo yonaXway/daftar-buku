@@ -1,0 +1,8 @@
+node_modules
+.next
+.env
+.vercel
+next-env.d.ts
+*.tsbuildinfo
+# dev.db SENGAJA tidak di-ignore: harus ikut di-push agar data muncul di Vercel
+prisma/*.db-journal
